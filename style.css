@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: black;
+  color: azure;
+  height: 100dvh;
+  line-height: 5rem;
+  font-size: 2rem;
+}
