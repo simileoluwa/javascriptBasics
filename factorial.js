@@ -1,7 +1,6 @@
-let thefactorial = 1;
-
 // Iterative;
 const mainFactor = (inputNumber) => {
+  let thefactorial = 1;
   for (let i = 1; i <= inputNumber; i++) {
     thefactorial *= i;
   }
