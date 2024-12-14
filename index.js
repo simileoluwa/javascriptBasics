@@ -22,6 +22,19 @@
 //   console.log(feature.innerText);
 // });
 
-const container = document.querySelector(".container");
-container.innerHTML += "<aside>This is the side</aside>";
-console.log(container.innerHTML);
+// const container = document.querySelector(".container");
+// container.innerHTML += "<aside>This is the side</aside>";
+// console.log(container.innerHTML);
+
+const nameArr = [
+  "Simileoluwa Emmanuel",
+  "Yetunde Adejoro",
+  "Busayo Ebber",
+  "Peter Obi",
+  "Prof Seyi Akinde",
+];
+
+const names = document.querySelector(".container");
+nameArr.forEach((name) => {
+  names.innerHTML += `<li>${name}</li>`;
+});
