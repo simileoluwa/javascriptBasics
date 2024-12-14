@@ -13,11 +13,15 @@
 // console.log(lecture.innerText);
 // console.log(lecture.textContent);
 
-const features = document.querySelectorAll("p");
+// const features = document.querySelectorAll("p");
 // console.log(features);
 
-features.forEach((feature) => {
-  feature.style.color = "orange";
-  feature.innerText += " desire";
-  console.log(feature.innerText);
-});
+// features.forEach((feature) => {
+//   feature.style.color = "orange";
+//   feature.innerText += " desire";
+//   console.log(feature.innerText);
+// });
+
+const container = document.querySelector(".container");
+container.innerHTML += "<aside>This is the side</aside>";
+console.log(container.innerHTML);
