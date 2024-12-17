@@ -44,7 +44,7 @@
 // getLink.setAttribute("href", "http://www.google.com");
 // console.log(getLink.getAttribute("href"));
 
-const mfmSchools = document.querySelector(".mfmschools");
+// const mfmSchools = document.querySelector(".mfmschools");
 // mfmSchools.setAttribute("class", "mainschools");
 // mfmSchools.setAttribute("style", "color:orange");
 // // console.log(mfmSchools.getAttribute("class"));
@@ -53,3 +53,15 @@ const mfmSchools = document.querySelector(".mfmschools");
 // console.log((mfmSchools.style.padding = "2rem"));
 // console.log((mfmSchools.style.backgroundColor = "crimson"));
 // console.log((mfmSchools.style.color = "white"));
+
+const mainContainer = document.querySelectorAll("div>p");
+
+mainContainer.forEach((element) => {
+  if (element.innerText.includes("error")) {
+    element.classList.add("error");
+  }
+
+  if (element.innerText.includes("success")) {
+    element.classList.add("success");
+  }
+});

@@ -11,8 +11,30 @@ body {
 .container {
   color: azure;
   height: 100dvh;
-  display: flex;
   flex-direction: column;
-  line-height: 4rem;
+  line-height: 1.7rem;
   font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-block: 1.6rem;
+}
+
+.error {
+  border: 4px dashed red;
+  color: lightgreen;
+  padding: 1rem 2rem;
+  /* background-color: aliceblue; */
+  width: 50%;
+  margin-block: 1rem;
+}
+
+.success {
+  border: 4px dashed lightgreen;
+  /* background-color: lightgreen; */
+  color: black;
+  padding: 1rem 2rem;
+  margin-block: 1rem;
+  /* background-color: aliceblue; */
+  width: 50%;
 }
