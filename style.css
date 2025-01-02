@@ -5,36 +5,40 @@
 }
 
 body {
-  background-color: #00040f;
+  line-height: 2rem;
 }
 
 .container {
-  color: azure;
-  height: 100dvh;
+  /* height: 100dvh; */
   flex-direction: column;
-  line-height: 1.7rem;
-  font-size: 2rem;
+  font-size: 1.5rem;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-block: 1.6rem;
 }
 
-.error {
-  border: 4px dashed red;
-  color: lightgreen;
-  padding: 1rem 2rem;
-  /* background-color: aliceblue; */
-  width: 50%;
-  margin-block: 1rem;
+.todoList ul {
+  margin: 0;
+  padding: 0;
 }
 
-.success {
-  border: 4px dashed lightgreen;
-  /* background-color: lightgreen; */
-  color: black;
-  padding: 1rem 2rem;
-  margin-block: 1rem;
-  /* background-color: aliceblue; */
-  width: 50%;
+.todoList li {
+  list-style: none;
+  background-color: #e1e1e1;
+  padding: 0.5rem 1rem;
+  margin-block: 0.8rem;
+}
+
+button {
+  padding: 0.8rem 1rem;
+  background-color: black;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: red;
+  color: white;
 }
